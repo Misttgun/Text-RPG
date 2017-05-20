@@ -76,25 +76,21 @@ Battle::Battle(std::vector<Creature*>& combatants)
 
 void Battle::run()
 {
-	std::vector<Creature*>::iterator player;
-
-	do
+	bool isAlive = false;
+	while (combatants.size() > 1)
 	{
-		for (auto it = combatants.begin(); it != combatants.end(); it++)
+		for (auto c : combatants)
 		{
-			if ((*it)->id == "player")
+			if (c->id == "player")
 			{
-				player = it;
+				isAlive = true;
 				break;
 			}	
 		}
 
-		// Continue the battle until either the player dies, or there is only the player left
-		// player = std::find_if(combatants.begin(), combatants.end(),[](Creature* a) { return a->id == "player"; });
-
-		nextTurn();
+		if (isAlive)
+			nextTurn();
 	}
-	while (player != combatants.end() && combatants.size() > 1);
 
 	return;
 }

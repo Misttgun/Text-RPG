@@ -11,9 +11,9 @@
 				["item_iron_key", 1]
 			],
 			"weapons": [
-				["weapon_dagger", 1]
+				["weapon_dagger_iron", 1]
 			],
-			"armor": [
+			"armors": [
 				["armor_leather", 1]
 			]
 		},
@@ -25,13 +25,13 @@
 			"description": "You are in room 2",
 			"choices": []
 		},
-		"doors": ["door_01_02"],
+		"doors": ["door_01_02", "door_02_03"],
 		"inventory": {
 			"items": [
 				["item_gold_coin", 50]
 			],
 			"weapons": [],
-			"armor": []
+			"armors": []
 		},
 		"creatures":["creature_rat"]
 	},
@@ -41,7 +41,7 @@
 			"description": "You are in room 3",
 			"choices": []
 		},
-		"doors": ["door_01_02", "door_02_03"],
+		"doors": ["door_02_03", "door_03_04"],
 		"inventory": {
 			"items": [
 				["item_gold_coin", 10],
@@ -51,24 +51,24 @@
 				["weapon_sword_steel", 1],
 				["weapon_dagger_steel", 1]
 			],
-			"armor": [
+			"armors": [
 				["armor_steel", 1]
 			]
 		},
 		"creatures":[]
 	},
 
-	"area_03": {
+	"area_04": {
 		"dialogue": {
-			"description": "You are in room 3",
+			"description": "You are in room 4",
 			"choices": []
 		},
-		"doors": ["door_01_02", "door_02_03"],
+		"doors": ["door_03_04"],
 		"inventory": {
 			"items": [],
 			"weapons": [],
-			"armor": []
+			"armors": []
 		},
-		"creatures":["creature_rat", "creature_rat", "creature_ghoul" ]
+		"creatures":["creature_rat", "creature_rat", "creature_ghoul"]
 	}
 }
