@@ -1,0 +1,13 @@
+{
+	"armor_leather": {
+		"name": "Leather Armor",
+		"defense": 1,
+		"description": "Armor made from tanned animal hide. It smells a bit funny, but it'd do the job."
+	},
+
+	"armor_steel": {
+		"name": "Steel Armor",
+		"defense": 4,
+		"description": "Armor made from refined steel. It will do a damn fine job."
+	}
+}

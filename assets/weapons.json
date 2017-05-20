@@ -1,0 +1,31 @@
+{
+	"weapon_dagger_iron": {
+		"name": "Dagger",
+		"damage": 2,
+		"description": "A small blade, made of iron. Best for a rogue."
+	},
+
+	"weapon_sword_steel": {
+		"name": "Sword",
+		"damage": 4,
+		"description": "A large blade, made of steel. Best for a warrior."
+	},
+
+	"weapon_dagger_steel": {
+		"name": "Dagger",
+		"damage": 5,
+		"description": "A small blade, made of steel. Best for a rogue."
+	},
+
+	"weapon_rat_claw": {
+		"name": "_rat_claw",
+		"damage": 1,
+		"description": ""
+	},
+
+	"weapon_ghoul_fang": {
+		"name": "_ghoul_fang",
+		"damage": 3,
+		"description": ""
+	}
+}

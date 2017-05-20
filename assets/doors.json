@@ -1,0 +1,21 @@
+{
+	"door_01_02": {
+		"description": "Sturdy wooden door",
+		"areas": ["area_01", "area_02"],
+		"locked": 1,
+		"key": "item_iron_key"
+	},
+
+	"door_02_03": {
+		"description": "Sturdy iron door",
+		"areas": ["area_02", "area_03"],
+		"locked": 0,
+	},
+
+	"door_03_04": {
+		"description": "Golden door",
+		"areas": ["area_03", "area_04"],
+		"locked": 1,
+		"key": "item_gold_key"
+	}
+}
